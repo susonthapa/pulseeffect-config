@@ -1,0 +1,3 @@
+#! /bin/sh
+pactl set-card-profile 1 output:analog-surround-21+input:analog-stereo
+pulseeffects --load-preset subwoofer

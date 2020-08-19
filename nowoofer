@@ -1,0 +1,3 @@
+#! /bin/sh
+pactl set-card-profile 1 output:analog-stereo+input:analog-stereo
+pulseeffects --load-preset advanced_auto_gain
