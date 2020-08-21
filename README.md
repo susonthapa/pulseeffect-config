@@ -14,3 +14,8 @@ There are two settings for pulseeffects
   You can look your audio codec supported profiles.
   
   The `woofer` script applies the **subwoofer** configuration in pulseeffects and also pusts the audio codec to 2.1 surround (applicable to **Asus N551**)
+  
+  ## Installation
+  Just clone the repository and then copy the `.json` files into the PulseEffects directory you can find in the local config directory. The location of that directory
+  depends on how you installed PulseEffects. If you installed it through Flatpak, you can find it in `~/.var/app/com.github.wwmm.pulseeffects/config/PulseEffects`, for
+  other systems it should be `~/.config/PulseEffects`.
